@@ -1,5 +1,13 @@
 ### ⚠️ FORKER'S MESSAGE
 This repository is originally from [DarrenOfficial](https://github.com/DarrenOfficial), we just decided to alter the code to use a different Lavalink build.
+> The original repository uses [melike2d's](https://github.com/melike2d) Lavalink release while this fork uses [davidffa's](https://github.com/davidffa) release.
+
+|               Features                | melike2d | davidffa |
+|---------------------------------------|----------|----------|
+| Getyarn support                       |    ❌    |    ✅   |
+| Reddit support                        |    ❌    |    ✅   |
+| Yandex Music (Яндекс Музыка) support  |    ❌    |    ✅   |
+| Memory usage                          |    ???   |   ???   |
 
 ### ℹ  Installation
 
@@ -47,7 +55,5 @@ chmod +x start.sh
 
 
 ## Additional info
-> Forker's message:
-> The original repository uses [melike2d's](https://github.com/melike2d) release while this fork uses [davidffa's](https://github.com/davidffa), since melike2d's version has been archived due to inactivity.
 
 The [lavalink server](https://github.com/davidffa/lavalink) is based on https://github.com/davidffa/lavalink and the download URL is always refreshed when a new GitHub release is pushed so everytime theres a new update it will auto grabs it from their repository.
