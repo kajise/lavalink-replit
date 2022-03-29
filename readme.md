@@ -17,10 +17,9 @@ or [click me](https://replit.com/github/kajise/lavalink-replit) to install it au
 It's normal, especially when you ping it with UptimeRobot or Freshworks. \
 it might show multiple times when you refresh the repl.it window.
 
-![](https://cdn.discordapp.com/attachments/855346696590589976/947185882056777818/unknown.png)
+![](https://cdn.discordapp.com/attachments/855346696590589976/947185882056777818/unknown.png) \
 
 Example `bot config`
-
 
 ![botconfreplit](https://cdn.darrennathanael.com/assets/discord/lavalinkconfigbot.jpeg) \
 Test bot from https://github.com/SudhanPlayz/Discord-MusicBot
