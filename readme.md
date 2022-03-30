@@ -2,8 +2,10 @@
 This repository is originally from [DarrenOfficial](https://github.com/DarrenOfficial), we just decided to alter the code to use a different Lavalink build.
 > The original repository uses [melike2d's](https://github.com/melike2d) Lavalink release while this fork uses [davidffa's](https://github.com/davidffa) release.
 
-If you're also planning to host this on [Railway](https://railway.app), don't. \
+If you're also planning to host this Lavalink instance on [Railway](https://railway.app), don't. \
 The reason is that, stream ripping websites aren't allowed on their networks and will ban your account if you do it.
+> A Railway helper responded to someone trying to host a Lavalink server: \
+> **You're violating Railway's TOS by re-hosting DMCA protected content**
 
 |               Features                | melike2d | davidffa |
 |---------------------------------------|----------|----------|
