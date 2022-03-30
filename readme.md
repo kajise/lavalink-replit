@@ -12,7 +12,7 @@ The reason is that, stream ripping websites aren't allowed on their networks and
 | Getyarn support                       |    ❌    |    ✅   |
 | Reddit support                        |    ❌    |    ✅   |
 | Yandex Music (Яндекс Музыка) support  |    ❌    |    ✅   |
-| Memory usage                          | 595-664MB |   ???   |
+| Memory usage                         | 595-664MB | 307-352MB |
 | Getting version info                  |    ❌    |    ✅   |
 | Ping pong (get the server's latency)  |    ❌    |    ✅   |
 
