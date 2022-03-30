@@ -10,32 +10,32 @@ const path = "./Lavalink.jar";
 
 const start = () => {
     	if (fs.existsSync(path)) {
-            execSync("java -jar Lavalink.jar", { stdio: "inherit" });
-        } else {
-            console.log("\x1b[31m%s\x1b[0m", "Lavalink.jar not found!");
-                const releaseURL = `https://api.github.com/repos/davidffa/lavalink/releases?page=1&per_page=1`;
+		execSync("java -jar Lavalink.jar", { stdio: "inherit" });
+	} else {
+		console.log("\x1b[31m%s\x1b[0m", "Lavalink.jar not found!");
+	    	const releaseURL = `https://api.github.com/repos/davidffa/lavalink/releases?page=1&per_page=1`;
 
-            got(releaseURL)
-                .then(resp => {
-                    const release = JSON.parse(resp.body)[0];
-                    const startTime = new Date().getTime();
-                    console.log("\x1b[34m%s\x1b[0m", "I will try to download one for you.");
+		got(releaseURL)
+			.then(resp => {
+				const release = JSON.parse(resp.body)[0];
+				const startTime = new Date().getTime();
+				console.log("\x1b[34m%s\x1b[0m", "I will try to download one for you.");
 
-                    got(release.assets[0].browser_download_url, { followRedirect: true, responseType: 'buffer' })
-                                  .then(resp => {
-                                        fs.writeFileSync(path, resp.body);
-                                        console.log(`Lavalink ${release.name} download finished! (${(new Date().getTime() - startTime)/1000}s)`);
-                                  })
-                                  .catch(err => {
-                                        console.error(err);
-                                  })
-                        .finally(() => {
-                            console.log("\x1b[34m%s\x1b[0m", "If for whatever reason it says that the Jar file is corrupt, you can delete the jar file and try running this again.");
-                            execSync("java -jar Lavalink.jar", { stdio: "inherit" });
-                        });
-                })
-                .catch(() => console.error);
-        }
+				got(release.assets[0].browser_download_url, { followRedirect: true, responseType: 'buffer' })
+                              .then(resp => {
+                                    fs.writeFileSync(path, resp.body);
+                                    console.log(`Lavalink ${release.name} download finished! (${(new Date().getTime() - startTime)/1000}s)`);
+                              })
+                              .catch(err => {
+                                    console.error(err);
+                              })
+					.finally(() => {
+						console.log("\x1b[34m%s\x1b[0m", "If for whatever reason it says that the Jar file is corrupt, you can delete the jar file and try running this again.");
+						execSync("java -jar Lavalink.jar", { stdio: "inherit" });
+					});
+			})
+			.catch(() => console.error);
+	}
 }
 
 start();
