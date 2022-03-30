@@ -7,7 +7,7 @@ This repository is originally from [DarrenOfficial](https://github.com/DarrenOff
 | Getyarn support                       |    ❌    |    ✅   |
 | Reddit support                        |    ❌    |    ✅   |
 | Yandex Music (Яндекс Музыка) support  |    ❌    |    ✅   |
-| Memory usage                     |   Unfinished  |   Unfinished  |
+| Memory usage                       |   595-664MB  |   Unfinished  |
 | Getting version info                  |    ❌    |    ✅   |
 | Ping pong support                     |    ❌    |    ✅   |
 
