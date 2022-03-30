@@ -2,14 +2,18 @@
 This repository is originally from [DarrenOfficial](https://github.com/DarrenOfficial), we just decided to alter the code to use a different Lavalink build.
 > The original repository uses [melike2d's](https://github.com/melike2d) Lavalink release while this fork uses [davidffa's](https://github.com/davidffa) release.
 
+### ⚠️ FORKER'S 2ND MESSAGE
+If you're planning to host this on [Railway](https://railway.app), don't. \
+The reason is that, stream ripping websites aren't allowed on their networks and will ban your account if you do it.
+
 |               Features                | melike2d | davidffa |
 |---------------------------------------|----------|----------|
 | Getyarn support                       |    ❌    |    ✅   |
 | Reddit support                        |    ❌    |    ✅   |
 | Yandex Music (Яндекс Музыка) support  |    ❌    |    ✅   |
-| Memory usage                       |   595-664MB  |   Unfinished  |
+| Memory usage                          | 595-664MB | 16-48MB |
 | Getting version info                  |    ❌    |    ✅   |
-| Ping pong support                     |    ❌    |    ✅   |
+| Ping pong (get the server's latency)  |    ❌    |    ✅   |
 
 ### ℹ  Installation
 
