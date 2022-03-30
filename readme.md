@@ -37,7 +37,7 @@ Test bot from https://github.com/SudhanPlayz/Discord-MusicBot
 - - -
 
 ## Note & such
-The default port to connect is `443` and the default password is `maybeiwasboring` \
+The default port to connect is `443` and the default password is `youshallnotpass` \
 You can’t change the lavalink port since replit makes it a default PORT to receive connections from.
 
 ### How to keep the replit on with [freshping](https://www.freshworks.com/website-monitoring/)
