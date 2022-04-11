@@ -12,17 +12,6 @@ Also if you want the latest update of your Lavalink client, delete your current 
 It will download a fresh and updated one but your application.yml will remain unchanged. \
 [Here's a list of released versions if you want to stay updated.](https://github.com/davidffa/lavalink/tags)
 
-
-|               Features                | melike2d | davidffa |
-|---------------------------------------|----------|----------|
-| Getyarn support                       |    ❌    |    ✅   |
-| Reddit support                        |    ❌    |    ✅   |
-| Yandex Music (Яндекс Музыка) support  |    ❌    |    ✅   |
-| Memory usage                         | 595-664MB | 296-440MB |
-| Getting version info                  |    ❌    |    ✅   |
-| Ping pong (get the server's latency)  |    ❌    |    ✅   |
-
-
 ### ℹ  Installation
 
 Fork this github repository. then create a new replit project. \
