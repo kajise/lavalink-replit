@@ -7,6 +7,7 @@ const path = "./Lavalink.jar";
 // - I used davidffa's Lavalink build
 // - I ensured it was downloading the latest build
 // - I did multiple tests to see if it would find a correct build.
+//   > 5 repl.it environments were created while conducting this test and all of them turned out well and working.
 
 const start = () => {
     	if (fs.existsSync(path)) {
