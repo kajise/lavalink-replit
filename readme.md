@@ -1,3 +1,11 @@
+```
+[1]  You are viewing the stable branch, this branch will use a stable version
+     of Lavalink if the main branch throws an error while getting the latest version.
+
+[2]  Version 1.0.23 Updates (version built on April 2, 2022):
+     + Update lavaplayer & dependencies
+```
+
 ### ⚠️ FORKER'S MESSAGE
 This repository is originally from [DarrenOfficial](https://github.com/DarrenOfficial), we just decided to alter the code to use a different Lavalink build.
 > The original repository uses [melike2d's](https://github.com/melike2d) Lavalink release, while this fork uses [davidffa's](https://github.com/davidffa) release. \
