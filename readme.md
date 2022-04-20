@@ -1,3 +1,8 @@
+```
+[1]  You are viewing the dev branch, this branch will use the latest version.
+     If this build throws an error while fetching updates we recommend you to use the stable branch.
+```
+
 ### ⚠️ FORKER'S MESSAGE
 This repository is originally from [DarrenOfficial](https://github.com/DarrenOfficial), we just decided to alter the code to use a different Lavalink build.
 > The original repository uses [melike2d's](https://github.com/melike2d) Lavalink release, while this fork uses [davidffa's](https://github.com/davidffa) release. \
