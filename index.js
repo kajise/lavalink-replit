@@ -8,7 +8,7 @@ const start = () => {
 		execSync("java -jar Lavalink.jar", { stdio: "inherit" });
 	} else {
 		console.log("\x1b[31m%s\x1b[0m", "Lavalink.jar not found!");
-	    	const releaseURL = `https://github.com/davidffa/lavalink/releases/download/v1.0.23/Lavalink.jar`;
+	    	const releaseURL = `https://github.com/davidffa/lavalink/releases/download/v1.0.24/Lavalink.jar`;
 
 		got(releaseURL, { followRedirect: true, responseType: 'buffer' })
                 .then(resp => {
