@@ -2,8 +2,13 @@
 [1]  You are viewing the stable branch, this branch will use a stable version
      of Lavalink if the main branch throws an error while getting the latest version.
 
-[2]  Version 1.0.23 Updates (version built on April 2, 2022):
-     + Update lavaplayer & dependencies
+[2]  Version 1.0.24 Updates (version built on April 25, 2022):
+     + Update native audio libraries (libmpg123, libopus, libogg, libvorbis, libsamplerate, fdk-aac)
+          - (removed support for win x86, arm, aarch32, armhf and darwin x86-64)
+     + Update soundtouch library (used for lavadsp timescale filter)
+     + Add soundtouch natives for darwin aarch64
+     + Enable JDA-NAS for linux (x86, x86-64, aarch64), darwin (x86-64 & aarch64) and windows (x86, x86-64)
+     + Update deps
 ```
 
 ### ⚠️ FORKER'S MESSAGE
