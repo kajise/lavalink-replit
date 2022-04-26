@@ -1,5 +1,5 @@
 ```
-[1]  You are viewing the dev branch, this branch will use the latest version.
+[1]  You are viewing the dev branch, this branch will use the latest version (if you're feeling boujee)
      If this build throws an error while fetching updates we recommend you to use the stable branch.
 ```
 
@@ -19,8 +19,11 @@ It will download a fresh and updated one but your application.yml will remain un
 
 ### ℹ  Installation
 
-Fork this github repository. then create a new replit project. \
-or [click me](https://replit.com/github/kajise/lavalink-replit) to install it automatically.
+Create a copy by using this [link](https://replit.com/github/kajise/lavalink-replit). \
+After creating a copy, perform the following steps to install the dev build:
+- Click the two pronged fork (with circles) which is the "Version control" button.
+- Select the branch and pick **main** and wait for the changes to be applied.
+- And after the changes have been applied. You can now run the app.
 
 ### How to use
 ```
