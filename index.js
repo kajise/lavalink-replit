@@ -8,12 +8,12 @@ const start = () => {
 		execSync("java -jar Lavalink.jar", { stdio: "inherit" });
 	} else {
 		console.log("\x1b[31m%s\x1b[0m", "Lavalink.jar not found!");
-	    	const releaseURL = `https://github.com/davidffa/lavalink/releases/download/v1.0.24/Lavalink.jar`;
+	    	const releaseURL = `https://github.com/davidffa/lavalink/releases/download/v1.1.1/Lavalink.jar`;
 
 		got(releaseURL, { followRedirect: true, responseType: 'buffer' })
                 .then(resp => {
                 	fs.writeFileSync(path, resp.body);
-                        console.log(`Lavalink ${release.name} download finished! (${(new Date().getTime() - startTime)/1000}s)`);
+                        console.log(`Lavalink version 1.1.1 download finished! (${(new Date().getTime() - startTime) / 1000}s)`);
                 })
                 .catch(err => {
                         console.error(err);
