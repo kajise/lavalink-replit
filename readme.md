@@ -2,18 +2,13 @@
 [1]  You are viewing the stable branch, this branch will use a stable version
      of Lavalink if the main branch throws an error while getting the latest version.
 
-[2]  Version 1.0.24 Updates (version built on April 25, 2022):
-     + Update native audio libraries (libmpg123, libopus, libogg, libvorbis, libsamplerate, fdk-aac)
-          - (removed support for win x86, arm, aarch32, armhf and darwin x86-64)
-     + Update soundtouch library (used for lavadsp timescale filter)
-     + Add soundtouch natives for darwin aarch64
-     + Enable JDA-NAS for linux (x86, x86-64, aarch64), darwin (x86-64 & aarch64) and windows (x86, x86-64)
-     + Update deps
+[2]  Version 1.1.1 Updates (version built on July 19, 2022):
+     + Update lavaplayer (add missing libmpg123 DLL for windows x86-64)
 ```
 
 ### ⚠️ FORKER'S MESSAGE
 This repository is originally from [DarrenOfficial](https://github.com/DarrenOfficial), we just decided to alter the code to use a different Lavalink build.
-> The original repository uses [melike2d's](https://github.com/melike2d) Lavalink release, while this fork uses [davidffa's](https://github.com/davidffa) release. \
+> The original repository uses [DarrenOfficial's](https://github.com/DarrenOffical) Lavalink release, while this fork uses [davidffa's](https://github.com/davidffa) release. \
 > DavidFFA's release has support for Getyarn, Reddit, Yandex Music, and TikTok support. 
 
 If you're also planning to host this Lavalink instance on [Railway](https://railway.app), don't. \
